@@ -1,14 +1,17 @@
 import React from 'react';
 
+import { Constructor } from './components/Constructor';
 import { Layout } from './components/Layout';
-import { CalculatorLayout } from './components/CalculatorLayout/';
+import { Switch } from './components/Switch';
+
 import './style/main.global.css';
 
 
 function App() {
   return (
     <Layout>
-      <CalculatorLayout />
+      <Switch />
+      <Constructor />
     </Layout>
   );
 }

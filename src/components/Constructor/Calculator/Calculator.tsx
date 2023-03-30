@@ -2,10 +2,10 @@ import React from 'react';
 
 import classNames from 'classnames';
 
-import styles from './calculatorLayout.css';
+import styles from './calculator.css';
 
 
-export function CalculatorLayout() {
+export function Calculator() {
   const numbers = classNames(
     styles.item,
     styles.numbers,
